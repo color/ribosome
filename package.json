@@ -1,0 +1,28 @@
+{ "name": "ribosome"
+, "version": "0.0.0"
+, "description": "Translates URL into PDF file."
+, "main": "lib/ribosome.js"
+, "scripts":
+    { "test": "echo \"Error: no test specified\" && exit 1"
+    }
+, "repository":
+    { "type": "git"
+    , "url": "https://github.com/ColorGenomics/ribosome.git"
+    }
+, "keywords":
+    [ "url"
+    , "pdf"
+    , "generator"
+    ]
+, "author": "Katsuya Noguchi"
+, "license": "MIT"
+, "bugs":
+    { "url": "https://github.com/ColorGenomics/ribosome/issues"
+    }
+, "dependencies":
+    { "phantomjs": "^1.9.17"
+    , "prince": "^1.1.3"
+    , "tmp": "^0.0.26"
+    }
+, "homepage": "https://github.com/ColorGenomics/ribosome"
+}
